@@ -16,11 +16,11 @@ class Carousel1 extends Component {
       <img src="https://picsum.photos/800/304/?random" alt="5" />,
     ];
     return (
-      <>
+      <div className = "slider-head">
         <h1 className="comment-head">3D Slider Demo</h1>
         <p>each time you refresh, you will get a new slider content</p>
         <Carousel slides={slides} />
-      </>
+      </div>
     );
   }
 }

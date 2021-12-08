@@ -42,9 +42,6 @@
  .slick-next:before, .slick-prev:before{
   color: rgb(125, 231, 199) !important;
 }
-.slick-next:before:hover, .slick-prev:before:hover{
-  
-}
 .multi-slider .slick-next{
   top: -22px;
   left: 96%;
@@ -55,4 +52,8 @@
 }
 .multi-slider img{
   width: 94%;
+}
+/* carousel css */
+.react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content{
+  box-shadow: none !important;
 }

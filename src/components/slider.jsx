@@ -41,7 +41,7 @@ class SliderOne extends React.Component {
         <h1 className="slider-head">Multi-Image Slider</h1>
         <Slider className = "multi-slider" {...multiimage}>
           <div><img src="https://picsum.photos/800/510/?random" alt="2" />
-          <p>first image</p></div>
+          <p className = "slider-head">first image</p></div>
           <div><img src="https://picsum.photos/800/511/?random" alt="3" /></div>
           <div><img src="https://picsum.photos/800/512/?random" alt="5" /></div>
           <div><img src="https://picsum.photos/800/515/?random" alt="5" /></div>
